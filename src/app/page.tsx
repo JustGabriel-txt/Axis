@@ -3,6 +3,7 @@ import { FAQ } from "@/components/FAQ";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
+import { JsonLd } from "@/components/JsonLd";
 import { MidCTA } from "@/components/MidCTA";
 import { Navbar } from "@/components/Navbar";
 import { Portfolio } from "@/components/Portfolio";
@@ -17,6 +18,7 @@ import { Why } from "@/components/Why";
 export default function Home() {
   return (
     <>
+      <JsonLd />
       <Navbar />
       <main>
         <Hero />

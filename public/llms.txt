@@ -1,0 +1,29 @@
+# AXIS
+
+> AXIS é uma agência brasileira de soluções digitais para empresas. Desenvolve sistemas e aplicativos sob medida, integra inteligência artificial aos processos do negócio e executa marketing digital orientado a dados. Atende empresas de todo o Brasil de forma remota.
+
+## Serviços
+
+- Sistemas & Aplicativos: apps iOS e Android, sistemas web e SaaS, ERPs, CRMs e portais, integrações e APIs.
+- Inteligência Artificial: agentes e chatbots com LLM, atendimento automático no WhatsApp, automação de processos, análise preditiva de dados.
+- Marketing Digital: tráfego pago (Meta e Google), funis e landing pages, SEO e conteúdo, CRO e analytics.
+
+## Como trabalhamos
+
+1. Diagnóstico: imersão no negócio, metas e gargalos.
+2. Estratégia: escopo, arquitetura, cronograma e investimento definidos por escrito.
+3. Desenvolvimento: sprints quinzenais com entregas visíveis.
+4. Lançamento e escala: publicação, monitoramento, marketing e evolução contínua.
+
+## Diferenciais
+
+- Tecnologia, I.A. e marketing no mesmo time.
+- Código-fonte e propriedade intelectual 100% do cliente.
+- Segurança e conformidade com a LGPD.
+- Suporte com SLA após o lançamento.
+
+## Contato
+
+- WhatsApp: +55 16 99762-1736 (https://wa.me/5516997621736)
+- E-mail: axisdev2026@gmail.com
+- Diagnóstico gratuito: seção "Diagnóstico" do site (/#diagnostico)

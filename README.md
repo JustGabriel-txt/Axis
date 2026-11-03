@@ -19,6 +19,8 @@ Acesse http://localhost:3000.
 - `src/data/projects.ts` — cases do portfólio
 - `src/data/testimonials.ts` — depoimentos
 - `src/components/Stats.tsx` — números de resultados
+- `src/data/seo.ts` — título, descrição e palavras-chave (defina `NEXT_PUBLIC_SITE_URL` com o domínio oficial)
+- `public/llms.txt` — resumo da empresa para buscadores de IA
 
 ## Build de produção
 

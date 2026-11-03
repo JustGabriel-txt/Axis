@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Unbounded } from "next/font/google";
+import { seo, siteUrl } from "@/data/seo";
 import "./globals.css";
 
 const inter = Inter({
@@ -14,18 +15,46 @@ const unbounded = Unbounded({
 });
 
 export const metadata: Metadata = {
-  title: "AXIS | Sistemas, Apps, Inteligência Artificial e Marketing Digital",
-  description:
-    "A AXIS desenvolve sistemas, aplicativos, integra inteligência artificial e executa marketing digital para empresas que querem crescer com tecnologia.",
-  openGraph: {
-    title: "AXIS | Tecnologia que move empresas",
-    description:
-      "Sistemas, aplicativos, I.A. e marketing digital, do diagnóstico à escala.",
-    images: ["/axis-logo.png"],
-    locale: "pt_BR",
-    type: "website",
+  metadataBase: new URL(siteUrl),
+  title: { default: seo.title, template: "%s | AXIS" },
+  description: seo.description,
+  keywords: seo.keywords,
+  applicationName: "AXIS",
+  authors: [{ name: "AXIS" }],
+  creator: "AXIS",
+  publisher: "AXIS",
+  category: "technology",
+  alternates: { canonical: "/" },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
-  icons: { icon: "/axis-logo.png" },
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: "/",
+    siteName: "AXIS",
+    title: seo.shortTitle,
+    description: seo.description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: seo.shortTitle,
+    description: seo.description,
+  },
+  formatDetection: { telephone: false, email: false, address: false },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#050505",
+  colorScheme: "dark",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
